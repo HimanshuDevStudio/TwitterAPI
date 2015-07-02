@@ -6,10 +6,10 @@ if(!empty($_SESSION['vtk']) || !empty($_SESSION['uv']) || !empty($_SESSION['sss'
 
 
 include('inc/twitteroauth.php');
-$cosumerkey = "your consumer key";
-$consumersecret = "your secret key ";
-$accesstoken = " your access token ";
-$accesstokensecret = " your accesss token secret ";
+$cosumerkey = "EdmjGXeIYhpyfbJpLY55lVB5E";
+$consumersecret = "NpAnzDp3uRCuaw6iv8tsNR1CmVQG04Wqw1IdzncCcfaY1FchtN";
+$accesstoken = "3238321282-4f2LArzCAmj1UwIVVP2HlUj4a3tZqldLmC0YKHs";
+$accesstokensecret = "S57wlUP8gS5BJCgTB6OyAjPiDE3dz66UVAVxTyjmllsFO";
 $TOA = new TwitterOAuth($cosumerkey,$consumersecret,$accesstoken,$accesstokensecret);
 } 
 

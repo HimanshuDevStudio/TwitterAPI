@@ -2,10 +2,10 @@
 <?php
 echo "</br>"; 
 
-$user = "user ";
-$pass= "password";
+$user = "root";
+$pass= "PASSWORD";
 $host = "127.0.0.1";
-$dbselector = "your db";
+$dbselector = "cms";
 $conn = mysql_connect($host,$user,$pass) or die("unable to connect");
 
 if (!empty($conn))
